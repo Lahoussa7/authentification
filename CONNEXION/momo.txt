@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<style>
+    .bloc{
+      background-color: white;
+      width: 40vw;
+      height:30vw;
+      border: solid;
+      border-color: rgb(50, 17, 201); 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2vw;
+
+    }
+    .bloc1{
+      background-color:rgba(0, 0, 0, 0.822)  ;
+      display: flex;
+      justify-content: center;
+    }
+    .bloc2{
+      background-color: blue ;
+     color: white;
+     width: 16vw;
+     height: 3vw;
+     font-size: 1.5vw;
+    
+    }
+    .bloc3{
+        border: solid;
+      border-color: rgb(50, 17, 201); 
+      height: 3vw;   
+    }
+    .blocdeco{
+     background-color: darkred ;
+     color: white;
+     width: 48vw;
+     height: 3.8vw;
+     text-align:center;
+     font-size: 2vw;
+		}
+</style>
+<body class="bloc1">
+    <div class="bloc"><form ACTION="http://www.lahoussa.com/cgi-bin/log1.cgi" METHOD="get">
+     Login<br>
+     <br><input type="text" name="nom" class="bloc3"><br>
+     <br>Password<br>
+     <br><input type="password" name="anni" class="bloc3"><br>
+     <br><input type="submit" class="bloc2"value="se connecter">
+     <!--button name="deconnecter">se deconnecter</button--></form>
+    </div>
+         
+    </form><br>
+    <div class="blocdeco"> <font >Mot de passe ou Login oubli&eacute;!!!!</font></div>
+</body>
+</html>

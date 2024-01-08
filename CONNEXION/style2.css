@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.bloc{
+    background-color: white;
+    width: 40vw;
+    height:30vw;
+    border: solid;
+    border-color: rgb(50, 17, 201); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+
+  }
+  .bloc1{
+    background-color:rgba(0, 0, 0, 0.822)  ;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height:50vw;
+  }
+  .bloc2{
+    background-color: blue ;
+   color:burlywood white;
+   width: 13vw;
+   height: 5vw;
+   font-size: 1.5vw;
+  
+  }
+  .bloc3{
+      border: solid;
+    border-color: rgb(50, 17, 201); 
+    height: 3vw;   
+  }
+
+
+
